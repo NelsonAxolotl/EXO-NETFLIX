@@ -5,7 +5,7 @@ const Section = ({ category, images }) => {
 
     return (
 
-        <main>
+        <article>
             <h2>{category}</h2>
             <div className="movie-list">
                 {images.map((picture) => {
@@ -16,7 +16,7 @@ const Section = ({ category, images }) => {
                     )
                 })}
             </div>
-        </main>
+        </article>
     )
 }
 

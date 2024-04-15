@@ -33,3 +33,8 @@ h2 {
     height: 150px;
     margin-top: 30px;
 }
+
+article ::-webkit-scrollbar {
+    display: none;
+    margin-top: 45px;
+}
